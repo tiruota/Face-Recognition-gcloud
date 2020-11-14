@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Face Similarity</title>
+    <link rel="stylesheet" href="{{ static_url('css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ static_url('css/style.css') }}" />
+    <script type="text/javascript" src="{{ static_url('js/bootstrap.bundle.min.js') }}" ></script>
+    <script type="text/javascript" src="{{ static_url('js/bootstrap.min.js') }}" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1 id="page-title">Face Similarity</h1>
+    <p>画像をアップロード</p>
+    <form method="post" action="/debug" enctype="multipart/form-data">
+        <input type="file" id="img_file" name="img_file" class="col-sm-4" multiple="multiple">
+        <input type="submit" value="送信" class="btn">
+    </form>
+    <script>
+    </script>
+</body>
+</html>
