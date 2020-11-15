@@ -25,7 +25,7 @@ gcloud run deploy --image gcr.io/[project_id]/[tag] --platform managed --set-env
 ---
 ## ローカルからGoogle Cloud SQLに接続
 ```bash
-gcloud sql databases create DB名 --instance=[sql_instance_name]
+gcloud sql connect [instance-id] --user=[user_name]
 ```
 
 
